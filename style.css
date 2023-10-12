@@ -1,0 +1,73 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+.wrapper {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #e6f4ff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title {
+    font-size: 20px;
+    margin-bottom: 38px;
+}
+input {
+    height: 45px;
+    width: 100%;
+    font-size: 14px;
+    border: 2px solid #aec8dd;
+    padding-left: 25px;
+    border-radius: 5px;
+}
+.container {
+    width: 415px;
+    background-color: #ffffff;
+    box-shadow: 0px 6px 30px #7a828b7c;
+    border-radius: 20px;
+    padding: 38px 30px;
+    z-index: 2;
+}
+.field {
+    margin-bottom: 14px;
+}
+.button {
+    display: block;
+    height: 35px;
+    width: 100%;
+    text-align: center;
+    border: 0px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+button.button {
+    color: #ffffff;
+    background-color: #2059f5;
+}
+a.button {
+    text-decoration: none;
+    background-color: #e4e4e4;
+    color: #929191;
+    line-height: 35px;
+}
+.divider {
+    text-align: center;
+    margin: 20px;
+}
+button.button:hover {
+    background-color: #1a46c0;
+}
+a.button:hover {
+    background-color: #bebcbc;
+}
+.circle {
+    height: 500px;
+    width: 500px;
+    background-color: #ffffff71;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+}
